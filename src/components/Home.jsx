@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './Navbar';
+import myimage from '../assets/2.jpg';
 
 import Marquee from './Marquee';
 import User from './User';
@@ -159,7 +160,7 @@ const Home = () => {
     </div>
 {/* End 6th Sectoin */}
 
-
+<img src={myimage} alt="My Image" />
     
 
 
