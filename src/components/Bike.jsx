@@ -1,13 +1,13 @@
 import React from 'react'
 
-import r15 from './src/assets/r15.jpg'
+import r15 from './assets/r15.jpg'
 
 
 
 const Bikes = [
     {
         id: 1,
-        bikeimage: {r15},
+        bikeimage: r15,
         name: 'R15',
         color: 'Blue',
         year: '2023',
