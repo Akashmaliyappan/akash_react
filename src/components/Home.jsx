@@ -159,9 +159,7 @@ const Home = () => {
     </div>
 {/* End 6th Sectoin */}
 
-{/* progress bar */}
-  <ProgressDefault/>
-{/*End- progress bar */}
+
     
 
 
