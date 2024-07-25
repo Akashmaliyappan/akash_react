@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+  background: linear-gradient(112.1deg, rgb(20, 24, 60) 11.4%, rgb(10, 10, 14) 70.2%);
+  
+  
+}
+#root{
+  padding: 0;
+  width: 100vw !important;
+}
+.marquee-container {
+  position: relative;
+  height: 300px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.marquee {
+  display: flex;
+  flex-direction: column;
+  animation: marquee 26s linear infinite;
+}
+
+.marquee img {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
